@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.appproject.widget.MyFlexBoxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:flexWrap="wrap"
+    style="@style/list_news_five_item_box_style">
+    <com.design.appproject.widget.MyTextView
+        style="@style/list_news_five_item_title_style"
+        android:id="@+id/title_tv"/>
+    <com.design.appproject.widget.MyTextView
+        style="@style/list_news_five_item_category_style"
+        android:id="@+id/intro_tv"/>
+    <com.design.appproject.widget.MyTextView
+        style="@style/list_news_five_item_time_style"
+        android:id="@+id/time_tv"/>
+</com.design.appproject.widget.MyFlexBoxLayout>
